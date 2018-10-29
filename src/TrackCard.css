@@ -1,0 +1,24 @@
+.tracks-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.track-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-track-card {
+  background-color: transparent;
+  border: 3px solid #60C7AA;
+  color: #60C7AA;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}

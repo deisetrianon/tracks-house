@@ -1,0 +1,26 @@
+.btn-artist-card {
+  background-color: transparent;
+  border: 3px solid #60C7AA;
+  color: #60C7AA;
+  font-weight: bold;
+  margin: 5px;
+  padding: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.artist-name,
+.artist-genre,
+.song-title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.artist-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.artist-genre {
+  font-size: 1rem;
+}
