@@ -49,7 +49,7 @@ class App extends Component {
             <div className="logo"></div>
             <div className="paths">
               <Link to="/artists" className="menu-button">ARTISTS</Link>
-              <Link to="/tracks" className="menu-button">TRACKS</Link>
+              <Link to="/tracks" className="menu-button-tracks">TRACKS</Link>
               <Link to="/playlist" className="menu-button">MY PLAYLIST</Link>
             </div>
           </div>

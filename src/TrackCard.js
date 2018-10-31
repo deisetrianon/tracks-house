@@ -25,15 +25,11 @@ class TrackCard extends React.Component {
     .then(res => res.json())
     .then (data => {
       this.setState({ tracks: data })
-      console.log(data);
     });
   }
 
   addPlaylistButton(track) {
-    console.log(track);
-
     let playlist = JSON.parse(localStorage.getItem('tracks'));
-    
     if (!playlist.some(item => item.id === track.id)) {
       tracksPlaylist.push(track);
       localStorage.setItem('tracks', JSON.stringify(tracksPlaylist));
