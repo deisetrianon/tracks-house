@@ -2,6 +2,8 @@
 
 Tracks House is a single page application that shows artists and tracks from an API. The SPA allows the user to browse through the lists of artists and tracks, listen to music and save favorite songs in a playlist.
 
+[Website](https://trackshouse.herokuapp.com/)
+
 ![demo](https://raw.githubusercontent.com/deisetrianon/tracks-house/master/src/images/demo.PNG)
 
 ## Built With
